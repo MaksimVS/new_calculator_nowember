@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/space"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_ext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/teal_200"
+            android:inputType="numberDecimal"
+            android:textSize="50sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <GridLayout
+            android:id="@+id/grid_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:columnCount="4"
+            android:useDefaultMargins="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_ext"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button2"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button3"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button_delete"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button4"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button5"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button6"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/buttonPlus"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button7"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button8"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button9"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/buttonMinus"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button0"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button00"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button_division"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button_multiplication"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button_nullify"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/button_dot"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/buttonEqually"
+                android:textColor="@color/black" />
+        </GridLayout>
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="180dp"
+            android:layout_height="300dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_baseline_attach_money_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/grid_layout"
+            app:tint="@color/teal_200" />
+
+        <!-- так отключаем часть кода или ставим комментарий, не влияющий на код  -->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
